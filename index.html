@@ -97,8 +97,11 @@
     <div class="modal-content">
       <h3>Payment Successful!</h3>
       <p>Your payment has been processed successfully.</p>
-      <a href="trudeals://app/payment/success?token=abcdefg_token">
-        <button id="closeButton">Close</button>
+      <a href="trudeals://app/payment?status=success&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODZhMzRlN2E3Y2U0MjRkYWRkOGI2NWUiLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzU5OTk5MDEwLCJleHAiOjE3NjI1OTEwMTB9.eq_ABJRv4ZKByyzIfBPUk78TAYCzlqckcpMuFsoyuvM">
+        <button id="closeButton">Success</button>
+      </a>
+        <a href="trudeals://app/payment?status=fail">
+        <button id="closeButton">Error</button>
       </a>
     </div>
   </div>
